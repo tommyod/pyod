@@ -2,7 +2,7 @@ language: python
 
 env:
   global:
-    PIP_PREFER_BINARY=true
+    PIP_PREFER_BINARY=true # https://github.com/numba/llvmlite/issues/471
 
 python:
   - "2.7"
