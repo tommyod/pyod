@@ -1,5 +1,9 @@
 language: python
 
+env:
+  global:
+    PIP_PREFER_BINARY=true
+
 python:
   - "2.7"
 #  - "3.3" # failed due to setuptool version
